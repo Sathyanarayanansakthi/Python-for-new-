@@ -1,0 +1,52 @@
+# Opening a file in write mode ('w') - this will create a new file or overwrite an existing one
+file = open('example.txt', 'w')
+
+# Writing to the file
+file.write("Hello, world!\n")
+file.write("This is a sample file.\n")
+
+# Writing multiple lines using writelines
+lines = ["First line\n", "Second line\n", "Third line\n"]
+file.writelines(lines)
+
+# Closing the file after writing
+file.close()
+
+print("Data written to 'example.txt'")
+# Opening the file in read mode ('r')
+file = open('example.txt', 'r')
+
+# Reading the entire file content using read()
+content = file.read()
+print("File Content using read():")
+print(content)
+
+# Resetting the file pointer to the beginning of the file
+file.seek(0)
+
+# Reading file line by line using readline()
+print("\nFile Content using readline():")
+print(file.readline())  # Reads the first line
+print(file.readline())  # Reads the second line
+
+# Resetting the file pointer to the beginning of the file
+file.seek(0)
+
+# Reading all lines using readlines()
+print("\nFile Content using readlines():")
+lines = file.readlines()
+for line in lines:
+    print(line, end='')
+
+# Closing the file after reading
+file.close()
+# Opening the file in append mode ('a') to add content at the end
+file = open('example.txt', 'a')
+
+# Appending new content
+file.write("This is an appended line.\n")
+
+# Closing the file after appending
+file.close()
+
+print("New content appended to 'example.txt'")
