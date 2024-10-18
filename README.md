@@ -3,6 +3,9 @@
   <li>Variables </li>
    <li>Strings</li>
   <li>Functions</li>
-  <li>List </li><li>Tuples</li>
-<<li>dictionary</li>
-<ul></ul>
+  <li>List </li>
+  <li>Tuples</li>
+<li>dictionary</li>
+  <li>Pandas </li><li>Numbers</li>
+  <li>Aggregation</li>
+ </ul>
