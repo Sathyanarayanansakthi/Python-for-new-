@@ -1,4 +1,4 @@
-<h1> This Repo contains Python For Newbabies </h1>
+<h1> This Repo contains Python Coading
 <ul>
   <li>Variables </li>
    <li>Strings</li>
